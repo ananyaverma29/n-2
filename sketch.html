@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Speed Racer</title>
+    <!-- Lib -->
+    <script src="./lib/p5.min.js"></script>
+    <script src="./lib/p5.dom.min.js"></script>
+    <script src="./lib/p5.sound.min.js"></script>
+    <script src="./lib/p5.play.js"></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.all.min.js"></script>  
+    <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@7.12.15/dist/sweetalert2.min.css'></link> 
+    <!-- Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-database.js"></script>
+
+    <script>
+  var firebaseConfig = {
+  apiKey: "AIzaSyBfQLYqIoPqosrUV0J-yZXbnl45XymLKSM",
+  authDomain: "finalmultiplayercarracinggame.firebaseapp.com",
+  databaseURL: "https://finalmultiplayercarracinggame-default-rtdb.firebaseio.com",
+  projectId: "finalmultiplayercarracinggame",
+  storageBucket: "finalmultiplayercarracinggame.appspot.com",
+  messagingSenderId: "1005209870362",
+  appId: "1:1005209870362:web:ab59615b91a24ffc7571a3"
+};
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+    </script>
+  </head>
+  <body>
+     <script src="./js/Game.js"></script>
+    <script src="./js/Form.js"></script>
+    <script src="./js/Player.js"></script>
+    <script src="./sketch.js"></script> 
+   <!-- <script src="js/StartingForm.js"></script> -->
+  </body>
+</html>
